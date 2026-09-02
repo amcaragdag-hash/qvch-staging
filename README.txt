@@ -1,26 +1,32 @@
-QVCH / KRIS MIACO WEBSITE — READY FOR VS CODE
+QVCH ENTERPRISES — COMPLETE STAGING WEBSITE
 
-FILES
-- index.html          = Kris Miaco entrepreneur landing page
-- whitewater.html     = Whitewater Development Project page
-- media.html          = Actual property photos + videos
-- CNAME               = keeps qvchenterprises.com custom domain on GitHub Pages
+Pages
+1. index.html       Kris Miaco / QVCH Enterprises landing page
+2. whitewater.html  Whitewater Development Project
+3. media.html       Whitewater photo, video and development journal
+
+Assets
 - assets/css/styles.css
 - assets/js/main.js
-- assets/images/      = 8 web-optimized photos from the Google Drive folder
-- assets/videos/      = 2 MP4 videos from the Google Drive folder
+- assets/images/
+- assets/videos/
 
-HOW TO USE
-1. BACK UP your current qvchenterprises project folder before replacing anything.
-2. Copy all files/folders in this package into your VS Code project root.
-3. Open index.html in VS Code.
-4. Use a local preview / Live Server if available, or open index.html in a browser.
-5. IMPORTANT: Kris portrait is intentionally a placeholder on the home page because no portrait was provided.
-6. Review all copy with Kris before publishing.
-7. When approved: Save -> Commit -> Sync/Push. GitHub Pages will deploy automatically.
+STAGING DEPLOYMENT
+This package is intended for the qvch-staging GitHub Pages repository.
+There is intentionally NO CNAME file in this package so it will not claim the production qvchenterprises.com domain.
 
-IMPORTANT
-- This package changes the site architecture from a property-for-sale site to an entrepreneur umbrella site.
-- Whitewater is repositioned as a development project, not currently marketed for sale.
-- The CNAME file is included so the custom domain remains configured when publishing to GitHub Pages.
-- Existing DNS settings do not need to be changed for this content update.
+Suggested staging URL:
+https://amcaragdag-hash.github.io/qvch-staging/
+
+Production note
+Do not replace the production qvchenterprises.com website until this staging version has been reviewed and approved.
+
+Content note
+The Whitewater page is written as a development-project profile, not a property-for-sale page. Utility and development language includes verification caveats where appropriate.
+
+
+V2 updates:
+- Kris Miaco portrait integrated into homepage hero
+- Whitewater neighborhood wording updated to 54 mailboxes observed
+- Regional road/energy landscape photo added to Media gallery
+- Existing design and staging-safe setup preserved
