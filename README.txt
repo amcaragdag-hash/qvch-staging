@@ -1,4 +1,19 @@
-QVCH Staging v3 Cache Fix
-Copy these files into the qvch-staging repo and replace existing HTML files.
-The stylesheet is renamed to styles-v3.css so GitHub Pages/browser cannot reuse stale CSS.
-No design or content changes.
+QVCH STAGING v4 — BUYER DUE DILIGENCE PATCH
+
+STAGING ONLY. Do not copy this patch into the production qvchenterprises repository.
+
+Files in this patch:
+- due-diligence.html          NEW page
+- index.html                  updated navigation + v4 stylesheet
+- whitewater.html             updated navigation, Stage 02 due-diligence link + v4 stylesheet
+- media.html                  updated navigation + v4 stylesheet
+- assets/css/styles-v4.css    full stylesheet with due-diligence styles
+
+COPY INTO YOUR LOCAL STAGING REPO:
+C:\Users\johnc\WebProjects\qvch-staging
+
+Important:
+1. Keep your existing assets/images, assets/videos, and assets/js folders.
+2. Copy the files/folders from this patch over the staging repo, preserving paths.
+3. No CNAME is included.
+4. The new page links only to documents considered suitable for this first staging review. Other research is visibly marked under review and is not published as a buyer source.
